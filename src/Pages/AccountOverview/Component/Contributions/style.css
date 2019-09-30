@@ -1,0 +1,35 @@
+.links {
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+.active {
+  /* border-bottom: none; */
+}
+.link.active {
+  border-bottom: none;
+  background-color: white;
+  border-top: 4px solid #006778;
+  color: #006778;
+  padding: 6px 10px 10px 10px;
+}
+.link {
+  background-color: #f1f1f1;
+  padding: 10px;
+  display: inline-block;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #505050;
+}
+.link:hover {
+  background-color: #ccc;
+  text-decoration: none;
+  color: #505050;
+}
+
+.tabs {
+  padding: 20px 20px 0px 20px;
+  background-color: white;
+}
+  
